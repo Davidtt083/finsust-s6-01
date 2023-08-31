@@ -24,31 +24,15 @@
     <div class="negro"></div>
     <div class="contep">
       <div class="princ btn1" onclick="mostrarp(1,1)" id="btn1">
-        <p>T</p>
+        <h2 style="color: #009eb3;">1.</h2> <p>Comité revisa y opina</p>
       </div>
 
-      <div class="princ btn1" onclick="mostrarp(2,2)" id="btn2">
-        <p>A</p>
+      <div class="princ btn2" onclick="mostrarp(2,2)" id="btn2">
+        <h2 style="color: #009eb3;">2.</h2> <p>Consejo recomienda y aprueba</p>
       </div>
 
       <div class="princ btn1" onclick="mostrarp(3,3)" id="btn3">
-        <p>C</p>
-      </div>
-
-      <div class="princ btn1" onclick="mostrarp(4,4)" id="btn4">
-        <p>T</p>
-      </div>
-
-      <div class="princ btn1" onclick="mostrarp(5,5)" id="btn5">
-        <p>I</p>
-      </div>
-
-      <div class="princ btn1" onclick="mostrarp(6,6)" id="btn6">
-        <p>L</p>
-      </div>
-
-      <div class="princ btn1" onclick="mostrarp(7,7)" id="btn7">
-        <p>E</p>
+        <h2 style="color: #009eb3;">3.</h2> <p>Asamblea hace oficia</p>
       </div>
 
     </div>
@@ -56,32 +40,19 @@
 
 
 
-  <div class="texto1  hide  align-items-center" id="text1">
-    <div class="conte-parr d-flex align-content-center flex-wrap">
-      <h2 style="color:#d18a29"><i>Trust</i> – Confianza</h2>
-      <p class="parr">en que su voz será escuchada.
-      </p>
-    </div>
+  <div class="texto1 hide align-items-center" id="text1">
     <div class="contelot" id="lot1"></div>
   </div>
 
-  <div class="texto1  hide align-items-center" id="text2">
-    <div class="conte-parr d-flex align-content-center flex-wrap">
-      <h2 style="color:#d18a29"><i>Autenticity</i> – Autenticidad</h2>
-      <p class="parr">es poder ser quien se desea sin aparentar, poner a la persona en el centro.</p>
-    </div>
+  <div class="texto1 hide align-items-center" id="text2">
     <div class="contelot" id="lot2"></div>
   </div>
 
-  <div class="texto1  hide align-items-center" id="text3">
-    <div class="conte-parr d-flex align-content-center flex-wrap">
-      <h2 style="color:#d18a29"><i>Caring</i> – Cuidado</h2>
-      <p class="parr">en diversidad e inclusión se refiere generar un entorno en donde las personas se sientan seguras
-        de que no habrá discriminación.
-      </p>
-    </div>
+  <div class="texto1 hide align-items-center" id="text3">
     <div class="contelot" id="lot3"></div>
   </div>
+
+
 
   <div class="texto1  hide align-items-center" id="text4">
     <div class="conte-parr d-flex align-content-center flex-wrap">
@@ -176,45 +147,61 @@
     </div>
   </div>
 
+
   <!-------------scripts------------------>
 
   <script>
-    var animationOptions = {
+    var animationOptions1 = {
       container: document.getElementById('lot1'),
       path: 'pant1.json', // Reemplaza con la ruta de tu archivo Lottie
       renderer: 'svg',
-      loop: true,
-      autoplay: true,
+      loop: false,
+      autoplay: false,
     };
 
-    // Cargar la animación
-    var animsol2 = bodymovin.loadAnimation(animationOptions);
+    var anim1 = bodymovin.loadAnimation(animationOptions1);
+
+        var playButton = document.getElementById('btn1');
+
+        playButton.addEventListener('click', function() {
+            anim1.goToAndPlay(0, true); 
+        });
   </script>
 
 <script>
-  var animationOptions = {
+  var animationOptions2 = {
     container: document.getElementById('lot2'),
-    path: 'pant4.json', // Reemplaza con la ruta de tu archivo Lottie
+    path: 'pant2.json', // Reemplaza con la ruta de tu archivo Lottie
     renderer: 'svg',
-    loop: true,
-    autoplay: true,
+    loop: false,
+    autoplay: false,
   };
 
-  // Cargar la animación
-  var animsol2 = bodymovin.loadAnimation(animationOptions);
+  var anim2 = bodymovin.loadAnimation(animationOptions2);
+
+      var playButton = document.getElementById('btn2');
+
+      playButton.addEventListener('click', function() {
+          anim2.goToAndPlay(0, true); 
+      });
 </script>
 
 <script>
-  var animationOptions = {
+  var animationOptions3 = {
     container: document.getElementById('lot3'),
-    path: 'pant2.json', // Reemplaza con la ruta de tu archivo Lottie
+    path: 'pant3.json', // Reemplaza con la ruta de tu archivo Lottie
     renderer: 'svg',
-    loop: true,
-    autoplay: true,
+    loop: false,
+    autoplay: false,
   };
 
-  // Cargar la animación
-  var animsol2 = bodymovin.loadAnimation(animationOptions);
+  var anim3 = bodymovin.loadAnimation(animationOptions3);
+
+      var playButton = document.getElementById('btn3');
+
+      playButton.addEventListener('click', function() {
+          anim3.goToAndPlay(0, true); 
+      });
 </script>
 
 <script>

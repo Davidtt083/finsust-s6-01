@@ -45,20 +45,13 @@ function mostrarp(divNum,btns){
 	document.getElementById("text1").classList.add("hide");
 	document.getElementById("text2").classList.add("hide");
 	document.getElementById("text3").classList.add("hide");
-	document.getElementById("text4").classList.add("hide");
-	document.getElementById("text5").classList.add("hide");
-	document.getElementById("text6").classList.add("hide");
-	document.getElementById("text7").classList.add("hide");
+
 	
 	
 
 	document.getElementById("btn1").classList.remove("activo");
 	document.getElementById("btn2").classList.remove("activo");
 	document.getElementById("btn3").classList.remove("activo");
-	document.getElementById("btn4").classList.remove("activo");
-	document.getElementById("btn5").classList.remove("activo");
-	document.getElementById("btn6").classList.remove("activo");
-	document.getElementById("btn7").classList.remove("activo");
 	
   
 	// Show the specific div
@@ -70,9 +63,5 @@ function cerrar(){
 	document.getElementById("text1").classList.add("hide");
 	document.getElementById("text2").classList.add("hide");
 	document.getElementById("text3").classList.add("hide");
-	document.getElementById("text4").classList.add("hide");
-	document.getElementById("text5").classList.add("hide");
-	document.getElementById("text6").classList.add("hide");
-	document.getElementById("text7").classList.add("hide");
 }
 

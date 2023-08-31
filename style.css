@@ -128,10 +128,10 @@ a {
 
 .contep {
   position: absolute;
-  margin-top: 151px;
-  width: 96%;
+  margin-top: 142px;
+  width: 76%;
   height: 80px;
-  margin-left: 3%;
+  margin-left: 23%;
   display: flex;
 }
 
@@ -139,7 +139,7 @@ a {
   color: rgba(0, 0, 0, 0);
   border-radius: 10px;
   width: 149px;
-  height: 76px;
+  height: 95px;
   margin: 9px;
   border: solid #fff 3px;
   /* border-radius: 50%; */
@@ -166,18 +166,18 @@ a {
 
 .btn1 {
   background-color: #0f102b;
-  line-height: 1.4;
-  font-size: 32px;
+  line-height: 1;
+  font-size: 17px;
   color: #ffffff;
-  padding-top: 16px;
+  padding-top: 11px;
 }
 
 .btn2 {
   background-color: #0f102b;
-  line-height: 1.2;
-  font-size: 19px;
+  line-height: 1;
+  font-size: 17px;
   color: #ffffff;
-  padding-top: 25px;
+  padding-top: 5px;
 }
 
 .btn3 {
@@ -599,7 +599,6 @@ a {
   margin-left: 54px;
   width: 90%;
   height: 45%;
-  background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -610,9 +609,6 @@ a {
   align-content: center;
   text-align: justify;
   line-height: 21px;
-  box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
 }
 
 .texto2 {
@@ -738,6 +734,6 @@ li {
   -moz-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
 }
 
-.conte-parr{
+.conte-parr {
   width: 50%;
 }
